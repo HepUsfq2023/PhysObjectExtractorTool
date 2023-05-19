@@ -39,7 +39,7 @@ data['ttbar']['nominal']['files'].append({
     'path': findRecid("19359")[2],
     'nevts': findRecid("19359")[1]
 })
-data['ttbar']['ME_var']['nevts_total']=findRecid("19359")[1]
+data['ttbar']['nominal']['nevts_total']=findRecid("19359")[1]
 
 #19949
 data['wjets']['ME_var']={}
